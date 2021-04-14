@@ -9,6 +9,7 @@
 #pragma warning(disable:4996)
 
 // Packing just in case compiler decides to align it differently
+#pragma pack(push)
 #pragma pack(1)
 struct D2R_SpA1 {
     unsigned char   szHeader[4];                        // 0x00 - Always SpA1
